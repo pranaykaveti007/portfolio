@@ -11,10 +11,10 @@ import { useTheme } from "@mui/material/styles";
 import TechStackIcon from "../components/TechStackIcon";
 import { motion } from "framer-motion";
 import styled from "styled-components";
+import mrkt from "../assets/image.png";
 
 // Manually added projectsdjs
 const projects = [
-  
   {
     id: 5,
     Title: "Agribot- AI Chatbot For Farmers ",
@@ -23,8 +23,6 @@ const projects = [
     Description: "AI-powered chatbot for agricultural assistance"
   },
   
-   
- 
   {
     id: 3,
     Title: "WeCure",
@@ -35,10 +33,10 @@ const projects = [
   {
     id: 4,
     Title: "MRKT.AI",
-    Img: "/mrkt.ai.png",
-    Link: "https://mrkt-ai-eshwar-sai-pranay-projects.vercel.app/",
-    Description: "AI-powered marketing platform (Front end Development)"
-  },
+    Img: mrkt,
+    Link: "https://mrkt-ai.vercel.app/",
+    Description: "Elevate your brand to new heights with our cutting-edge marketing strategies."
+  }
 ];
 
 // Tech stacks data
